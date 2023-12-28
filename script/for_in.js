@@ -25,11 +25,11 @@ const person = {
 //     };
 // }
 
-let newPerson = {};
-for (const key in person){
-    if(typeof person[key] === "string"){
-       newPerson[key] = person[key]
-    };
+// let newPerson = {};
+// for (const key in person){
+//     if(typeof person[key] === "string"){
+//        newPerson[key] = person[key]
+//     };
     
-}
-console.log(newPerson);
+// }
+// console.log(newPerson);
